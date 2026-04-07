@@ -43,10 +43,11 @@ By watching these two numbers over a rolling **15-frame window**, the system ide
 ## 🚀 Getting Started
 
 ### 1. Set up the Backend
-
+```bash
 cd backend
 python -m venv venv
-# Activate your venv (Windows: .\venv\Scripts\activate), then:
+```
+#### Activate your venv (Windows: .\venv\Scripts\activate), then:
 pip install -r requirements.txt
 
 📥 IMPORTANT: You need the pre-trained model file to run the detection.
@@ -57,10 +58,11 @@ Action: Place the downloaded file directly inside the /backend folder.
 Run Backend (Reload) again : uvicorn main:app --reload
 
 ### 2. Set up the Frontend
-
+```bash
 cd frontend
 npm install
 npm start
+```
 
 ---
 
@@ -75,7 +77,7 @@ npm start
     ├── src/
     │   └── App.js             # React UI & real-time signal graphing
     └── package.json           # Node modules
-
+```
 ---
 
 👨‍💻 About Me
