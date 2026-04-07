@@ -64,7 +64,8 @@ npm start
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
+```text
 .
 ├── backend/
 │   ├── main.py                # WebSocket logic & coordinate math
